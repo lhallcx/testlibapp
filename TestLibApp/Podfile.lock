@@ -1,0 +1,20 @@
+PODS:
+  - testcommon (0.1.0)
+  - testlibA (0.1.0):
+    - testcommon (= 0.1.0)
+
+DEPENDENCIES:
+  - testlibA (= 0.1.0)
+
+SPEC REPOS:
+  https://github.com/lhallcx/lhall-podspecs.git:
+    - testcommon
+    - testlibA
+
+SPEC CHECKSUMS:
+  testcommon: 49e49ae20df0d326250cf74264dc1c088c226d80
+  testlibA: c24f35c3b40ea68828953d8878bbdcb4fc716117
+
+PODFILE CHECKSUM: 45a87eff6ea51c9fbb2702e98ce222510556c70b
+
+COCOAPODS: 1.5.3
