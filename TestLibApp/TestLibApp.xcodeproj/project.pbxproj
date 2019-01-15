@@ -166,11 +166,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-TestLibApp/Pods-TestLibApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/testcommon/testcommon.framework",
 				"${BUILT_PRODUCTS_DIR}/testlibA/testlibA.framework",
+				"${BUILT_PRODUCTS_DIR}/testlibB/testlibB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/testcommon.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/testlibA.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/testlibB.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

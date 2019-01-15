@@ -8,5 +8,6 @@ target 'TestLibApp' do
   use_frameworks!
 
   # Pods for TestLibApp
-  pod 'testlibA', '0.1.0'
+  pod 'testlibA'
+  pod 'testlibB'
 end

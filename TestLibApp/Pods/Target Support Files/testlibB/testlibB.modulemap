@@ -1,0 +1,6 @@
+framework module testlibB {
+  umbrella header "testlibB-umbrella.h"
+
+  export *
+  module * { export * }
+}

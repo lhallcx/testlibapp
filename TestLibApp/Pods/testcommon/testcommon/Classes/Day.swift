@@ -6,7 +6,7 @@ public class Day {
     public class func current() -> String {
         let f = DateFormatter()
         let now = Date()
-        let weekdayIndex = Calendar.current.component(.weekday, from: now)
+        let weekdayIndex = Calendar.current.component(.weekday, from: now) - 1
         return f.weekdaySymbols[weekdayIndex]
     }
     
