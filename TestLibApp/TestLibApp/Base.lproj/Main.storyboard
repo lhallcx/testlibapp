@@ -28,14 +28,14 @@
                                     <action selector="libSelectorValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="FOi-ym-HHA"/>
                                 </connections>
                             </segmentedControl>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G16-Oo-4HS" userLabel="ResultTextField">
-                                <rect key="frame" x="0.0" y="318.5" width="375" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G16-Oo-4HS" userLabel="ResultTextField">
+                                <rect key="frame" x="0.0" y="325" width="375" height="17"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jye-iD-iCk" userLabel="GetDayButton">
-                                <rect key="frame" x="132" y="268.5" width="111" height="30"/>
+                                <rect key="frame" x="132" y="275" width="111" height="30"/>
                                 <state key="normal" title="Get Current Day"/>
                                 <connections>
                                     <action selector="getDayButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NJ0-vk-SfE"/>
